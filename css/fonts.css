@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'Varta Light';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Varta Light'), url('../fonts/Varta-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Varta Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Varta Regular'), url('../fonts/Varta-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Varta SemiBold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Varta SemiBold'), url('../fonts/Varta-SemiBold.woff') format('woff');
+}
+
+@font-face{
+	font-family: 'Rubik Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Rubik Regular'), url('../fonts/Rubik-Regular.ttf') format('ttf');
+}
+
+@font-face{
+	font-family: 'Rubik Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Rubik Italic'), url('../fonts/Rubik-Italic.ttf') format('ttf');
+}
+
+@font-face{
+	font-family: 'Rubik Light';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Rubik Light'), url('../fonts/Rubik-Light.ttf') format('ttf');
+}
+
+@font-face{
+	font-family: 'Rubik LightItalic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Rubik LightItalic'), url('../fonts/Rubik-LightItalic.ttf') format('ttf');
+}
+

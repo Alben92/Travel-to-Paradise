@@ -1,0 +1,238 @@
+@media screen and (max-width: 700px){
+	#wrapper{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	section{
+		padding: 0;
+	}
+
+	#home{
+		height: 100%;
+		padding-bottom: 40px;
+	}
+
+	.link-menu{
+		font-size: 24px;
+		margin: 10px;
+		
+	}
+
+	.menu-portada-lg{
+		height: 100px;
+	}
+
+	.m-5{
+		margin: 0 !important;
+	}
+
+	.icon {
+		float: right;
+		display: block;
+		font-size: 40px;
+	}
+
+	.icon-close{
+		float: right;
+		display: block;
+		font-size: 40px;
+	}
+
+	.responsive{
+		position: fixed;
+		display: none;
+		width: 90%;
+		z-index: 2;
+		background: #1e1e1e;
+		top: 0;
+		padding-bottom: 100px;
+		padding-top: 100px
+	}
+
+	.icon-movile-fijo{
+		display: block;
+		width: 100%;
+	}
+
+	.icon-movile{
+		display: block;
+		position: fixed;
+		top: 0;
+		width: 75%;
+		z-index: 3;
+	}
+
+	.icon-movile-menu{
+		display: block;
+		background: white;
+		border-bottom: 2px solid #1e1e1e;
+		width: 100%;
+		position: fixed;
+		z-index: 3;
+		top: -80px;
+		transition: all .3s ease-in-out;
+		left: 0;
+		padding: 10px 20px 5px;
+	}
+
+	.icon-movile-menu .icon{
+		color: #1e1e1e;
+	}
+
+	.contenido-principal{
+		margin: 0 auto;
+		height: auto;
+		padding: 30px 0;
+	}
+
+	.logo-principal{
+		width: 150px;
+		margin: 0 0 30px;
+	}
+
+	.titulo{
+		font-size: 40px;
+		margin: 20px 0;
+	}
+
+	.subtitulo{
+		margin: 30px 0 10px;
+	}
+
+	.slide{
+		float: none;
+		position: relative;
+		display: block;
+		margin: 20px auto;
+		top: auto;
+		height: auto;
+		width: auto;
+		text-align: center;
+	}
+
+	.slide-lateral{
+		display: inline-flex;
+		align-items: center;
+	}
+
+	.linea-slide{
+		height: 2px;
+		width: 20px;
+		margin: 10px 20px;
+	}
+
+	.btn-slide{
+		width: 50px;
+		height: 50px;
+		font-size: 24px;
+		padding: 10px;
+	}
+
+	.mouse{
+		position: relative;
+		margin: 100px auto 0;
+	}
+
+	.menu-web-lg{
+		display: none;
+	}
+
+	.texto-about{
+		width: 100%;
+		font-size: 20px;
+		text-align: justify;
+	}
+
+	.btn-about{
+		margin: 60px auto 20px;
+		padding: 10px 20px;
+	}
+
+	.btn-lien{
+		font-size: 24px;
+	}
+
+	.logo-separator{
+		width: 80px;
+		margin: 50px auto 0;
+	}
+
+	.slide-btn{
+		margin: 20px 10px;
+		text-align: center;
+	}
+
+	.slide-lateral-negro{
+		display: inline-flex;
+		text-align: center;
+		align-items: center;
+	}
+
+	.btn-slide-negro{
+		margin: 0 20px;
+		width: 50px;
+		height: 50px;
+		font-size: 24px;
+		padding: 10px;
+	}
+
+	.linea-slide-negro{
+		margin: 10px;
+		width: 30px;
+		height: 2px;
+	}
+
+	.galeria{
+		margin: 50px 10px;
+	}
+
+	.imagen-table, .imagen-table2{
+		overflow: hidden;
+		padding: 0 !important;
+	}
+
+	.columna-galeria{
+		height: 300px;
+		width: 70%;
+		display: block;
+		margin: 0;
+	}
+
+	.img-alta{
+		left: -100px;
+		position: relative;
+	}
+
+	.img-larga{
+		height: 100%;
+		position: relative;
+		left: -100px;
+		width: auto;
+	}
+
+	.img-peque{
+		position: relative;
+		height: 100%;
+		width: auto;
+		left: -50px;
+	}
+
+	.formulario{
+		padding: 50px 20px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

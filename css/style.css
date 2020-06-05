@@ -1,0 +1,587 @@
+body{
+  overflow-x: hidden !important;
+  overflow-y: scroll;  
+  background-color: #fff;
+}
+
+#wrapper{
+  margin: 0 auto;
+  font-family: 'Varta Regular', sans-serif;
+}
+
+section{
+  padding: 20px 0;
+}
+
+/* MENU */
+
+#home{
+  background-image: url(../img/background/imagen-slide-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  padding: 0px;
+  
+}
+
+.link-menu{
+  color: white;
+  font-size: 16px;
+  font-family: 'Varta Regular';
+  transition: all .3s ease-in-out;
+  padding: .5rem 1rem;
+  display: block;
+
+}
+
+.link-menu:hover{
+  color: #1e1e1e;
+  cursor: pointer;
+  background: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 1px;
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+}
+
+.main-menu{
+  align-items: center;
+}
+
+.menu-web-lg{
+  background: #1e1e1e;
+  display: flex;
+  top: -200px;
+  position: fixed !important;
+  width: 100%;
+  transition: all .3s ease-in-out;
+  z-index: 999;
+  border-bottom: 2px solid #ffffff;
+  padding: 10px 50px;
+}
+
+.icon{
+  color: #ffffff;
+  font-size: 20px;
+  display: none;
+}
+
+.icon:hover, .icon:focus{
+  color: #ffffff;
+}
+
+.icon-close{
+  display: none;
+}
+
+
+
+.logo-menu{
+  width: 20%;
+  margin-left: 100px;
+  transition: all 1s ease-in-out;
+}
+
+.logo-menu:hover{
+  opacity: 0.6;
+  transition: all .3s ease-in-out;
+}
+
+.header{
+  overflow: hidden;
+}
+
+.contenido-principal{
+  display: block;
+  backdrop-filter: blur(2px);
+  margin: 50px auto;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+  background: rgba(256,256,256,0.1);
+  width: 70%;
+  max-width: 1000px;
+  height: 500px;
+  text-align: center;
+}
+
+.logo-principal{
+  width: 200px;
+  margin: 70px 20px 40px;
+}
+
+.titulo{
+  font-family: 'Varta SemiBold';
+  font-size: 48px;
+  margin: 10px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.subtitulo{
+  font-size: 24px;
+  font-family: 'Varta Regular';
+}
+
+.slide{
+  float: left;
+  width: 100px;
+  height: 500px;
+  position: absolute;
+  margin-left: calc(100% / 20);
+  top: 300px;
+
+}
+
+.slide-lateral{
+  display: inline-grid;
+  justify-items: center;
+}
+
+.btn-slide{
+  background: none;
+  width: 40px;
+  height: 40px;
+  font-family: 'Varta SemiBold';
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 7px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  margin: 10px 0px;
+  transition: all .3s ease-in-out;
+}
+
+.btn-slide:hover{
+  background: #ffffff;
+  border: none;
+  transition: all .3s ease-in-out;
+  color: #1e1e1e;
+  outline: none;
+}
+
+.btn-slide:focus{
+  background: #ffffff;
+  border: none;
+  transition: all .3s ease-in-out;
+  color: #1e1e1e;
+  outline: none;
+}
+
+.slide-active{
+  background: #ffffff;
+  border: none;
+  color: #1e1e1e;
+}
+
+.linea-slide{
+  height: 50px;
+  width: 2px;
+  background: #ffffff;
+  margin: 10px 0px;
+}
+
+.mouse {
+  width: 50px;
+  height: 90px;
+  border: 1px solid #ffffff;
+  border-radius: 60px;
+  position: absolute;
+  display: block;
+  margin: 50px auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+}
+.mouse::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity: 1;
+  animation: wheel 2s infinite;
+  -webkit-animation: wheel 2s infinite;
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+
+/* TITULO */
+
+.header-section{
+  display: block;
+  margin: 50px auto 0;
+  text-align: center;
+  padding: 80px 0
+}
+
+.titulo-section{
+  font-family: 'Varta Semibold';
+  color: #969696;
+  margin: 3px;
+  font-size: 40px;
+}
+
+.linea-titulo{
+  background: #969696;
+  width: 300px;
+  height: 2px;
+  display: block;
+  margin: 2px auto
+}
+
+
+/* SOMOS */
+
+.titulo-about{
+  font-family: 'Rubik Regular';
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #494949;
+}
+
+.texto-about{
+  font-family: 'Rubik Light';
+  color: #1e1e1e;
+  width: 500px;
+}
+
+.btn-about{
+  margin-top: 40px ;
+  outline: none;
+  background: #ffffff;
+  border-radius: 1px;
+  border: 1px solid #1e1e1e;
+  display: block;
+  padding: 10px 20px;
+  transition: all .3s ease-in-out;
+}
+
+.btn-lien{
+  font-family: 'Rubik Regular';
+  font-size: 16px;
+  color: #1e1e1e;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+.btn-about:hover{
+  border: 1px solid #ffffff;
+  background: #1e1e1e;
+  transition: all .3s ease-in-out;
+}
+
+.btn-about:hover .btn-lien{
+  color: #ffffff;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+.subtitulo-about{
+  font-family: 'Rubik Regular';
+  font-size: 20px;
+  color: #494949; 
+}
+
+.imagen-about{
+  overflow: hidden;
+  width: 500px;
+  position: relative;
+}
+
+.img-sobrenosotros{
+  position: absolute;
+  height: 100%;
+  left: -500px;
+  right: -500px;
+  margin: 0 auto;
+}  
+
+.logo-separator{
+  width: 50px;
+  margin: 100px auto 0;
+}
+
+
+
+/* Viajes */
+
+.titulo-galeria{
+  font-family: 'Rubik Regular';
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #494949;
+  text-align: center;
+}
+
+.galeria{
+  margin: 50px;
+}
+
+.slide-btn{
+  margin: 30px;
+  align-self: center;
+}
+
+.slide-lateral-negro{
+  display: inline-grid;
+  justify-items: center;
+}
+
+.btn-slide-negro{
+  background: #ffffff;
+  width: 40px;
+  height: 40px;
+  font-family: 'Varta SemiBold';
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 7px;
+  border: 1px solid #1e1e1e;
+  color: #1e1e1e;
+  margin: 10px 0px;
+  transition: all .3s ease-in-out;
+}
+
+.btn-slide-negro-active{
+  background: #1e1e1e;
+  color: #ffffff;
+  transition: all .3s ease-in-out;
+}
+
+.btn-slide-negro:hover{
+  background: #1e1e1e;
+  color: #ffffff;
+  transition: all .3s ease-in-out;
+}
+
+.btn-slide-negro:focus{
+  background: #1e1e1e;
+  color: #ffffff;
+  outline: none;
+  transition: all .3s ease-in-out;
+}
+
+.linea-slide-negro{
+  margin: 5px;
+  width: 2px;
+  background: #1e1e1e;
+  height: 30px;
+}
+
+.tabla-galeria{
+  border: none;
+}
+
+.imagen-table{
+  display: block;
+}
+
+.imagen-table2{
+  display: none;
+}
+
+.fila-galeria{
+  margin: 10px;
+}
+
+.columna-galeria{
+  margin: 10px;
+  border: none !important;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+.img-alta{
+  height: 100%;
+  left: -200px;
+  position: absolute;
+}
+
+.img-larga{
+  width: 100%;
+  position: absolute;
+}
+.img-peque{
+  height: 100%;
+  position: absolute;
+}
+
+
+
+.travel{
+  background: #1e1e1e;
+  padding: 50px 0;
+}
+
+.titulo-travel{
+  color: #ffffff;
+  font-family: 'Rubik Regular';
+  font-size: 24px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.carta{
+  border: none !important;
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-meta{
+  display: flex;
+  margin: 24px -20px -20px;
+
+}
+
+.carta img{
+  width: 100%;
+  padding: 10px;
+  transition: all .3s ease;
+}
+
+.carta img:hover{
+  transform: scale(1.02);
+  transition: all .3s ease-in-out;
+}
+
+.carta-texto{
+  padding: 20px 10px;
+  margin: 20px 10px;
+  border-top:1px solid #969696;
+}
+
+.carta h5{
+  font-family: 'Rubik Regular';
+  font-size: 22px;
+  padding-bottom: 10px;
+  color: #1e1e1e;
+  text-align: center;
+  margin: 10px;
+}
+
+.carta p{
+  font-family: 'Rubik Light';
+  font-size: 16px;
+  color: #1e1e1e;
+  margin: 10px;
+}
+
+.boton-oferta{
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  display: block;
+  background: white;
+  color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  margin: 50px auto 10px;
+  transition: all .3s ease-in-out;
+}
+
+.boton-oferta:hover{
+  background: #1e1e1e;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+/* FORMULARIO */
+
+.formulario{
+  background-image: url(../img/background/imagen-contacto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 50px;
+}
+
+.form-individual{
+  padding: 20px !important;
+}
+
+.formulario label{
+  color: #ffffff;
+  font-family: 'Rubik Regular';
+  font-size: 16px;
+  margin: 0;
+}
+
+.form-control{
+  background: none !important;
+  border: none !important;
+  border-bottom: 3px solid #ffffff !important;
+  border-radius: 0px !important;
+  color: #ffffff !important;
+  outline: none !important;
+}
+
+.form-control:focus{
+  outline: none !important;
+  border: none !important;
+}
+
+.boton-formulario{
+  padding: 10px 20px;
+  background: rgba(256,256,256,0.05);
+  backdrop-filter: blur(1px);
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: 'Rubik Regular';
+  display: block;
+  margin: 50px auto 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.boton-formulario:hover{
+  background: #ffffff;
+  border: 1px solid rgba(256,256,256,0.0);
+  color: #1e1e1e;
+  transition: all .3s ease-in-out;
+}
+
+
+.footer{
+  background: #c8c8c8;
+  font-family: 'Rubik Light';
+  font-size: 12px;
+  color: #1e1e1e;
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
