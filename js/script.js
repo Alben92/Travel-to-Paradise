@@ -1,5 +1,4 @@
 // BOTONES SLIDE
-
 $(document).ready(function() {
 
   $(".slide1").on("click", cambiarfondo1);
@@ -22,7 +21,6 @@ $(document).ready(function() {
 });  
 
 // MENU MODIFICABLE
-
 var scroll;
 
 $(window).scroll(function () {
@@ -37,7 +35,6 @@ $(window).scroll(function () {
 
 
 // GALERIA
-
 $(document).ready(function() {
 
   $(".slide2-negro").on("click", cambiargaleria1);
@@ -58,7 +55,6 @@ $(document).ready(function() {
 
 
 // MENU RESPONSIVE
-
 $(document).ready(function () {
 
   $(".icon").on('click', activarfondo);
@@ -74,8 +70,6 @@ $(document).ready(function () {
 });
 
 //Menu responsive modificable
-
-
 var scrollmenu;
 
 $(window).scroll(function () {
@@ -87,4 +81,55 @@ $(window).scroll(function () {
       $(".icon-movile-menu").css({"top": "-80px"});
     }
 });
+
+// MODALES
+$(document).ready(function(){
+  //Leer mas Home
+  $('#LeerMasHome').on('click', function() {
+    $('#modalhome').css('display','block');
+    $('#overlay').css('display','block');
+  });
+
+  $('.closeButton').on('click', function() {
+    $('#modalhome').css('display','none');
+    $('#ModalLouvre').css('display','none');
+    $('#ModalInvalides').css('display','none');
+    $('#ModalTorreEiffel').css('display','none');
+    $('#ModalCliente').css('display','none');
+    $('#ModalFidel').css('display','none');
+    $('#ModalOnline').css('display','none');
+    $('#overlay').css('display','none');
+  });
+
+  $('#saberMasLouvre').on('click', function() {
+    $('#ModalLouvre').css('display','block');
+    $('#overlay').css('display','block');
+  });
+
+  $('#saberMasInvalides').on('click', function() {
+    $('#ModalInvalides').css('display','block');
+    $('#overlay').css('display','block');
+  });
+
+  $('#saberMasEiffel').on('click', function() {
+    $('#ModalTorreEiffel').css('display','block');
+    $('#overlay').css('display','block');
+  });
+
+  $('#saberMasCliente').on('click', function() {
+    $('#ModalCliente').css('display','block');
+    $('#overlay').css('display','block');
+  });
+
+  $('#saberMasfidel').on('click', function() {
+    $('#ModalFidel').css('display','block');
+    $('#overlay').css('display','block');
+  });
+
+  $('#saberMasOnline').on('click', function() {
+    $('#ModalOnline').css('display','block');
+    $('#overlay').css('display','block');
+  });
+
+})
     

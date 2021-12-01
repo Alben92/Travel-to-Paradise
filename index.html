@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <!--TITULO-->
   <title>Travel to Paradise</title>
@@ -126,6 +126,16 @@ viajes a Paris, la ciudad del amor.">
         <div class="container">
           <div class="row">
 
+            <div id="modalhome">
+              <div class="GrupoCerrartitulo">
+                <h4 class="titulo-about">Agencia de viajes online</h4>
+                <button data-close-button class="closeButton">&times;</button>
+              </div>
+              <p class="texto-about">En las agencias de viajes sabemos que cualquier fecha para viajar es buena si el destino lo merece. ¡Ojo! el destino y el rumbero. Y es que nuestros viajeros rumberos se lo merecen toíto tó. Así que entra y utiliza el buscador de hoteles: encontrarás todas las ofertas pa rumberos avispaos que saben lo que es bueno (y baratico, oiga).<br><br>
+
+              Somos una agencia asociada a B the travel brand, integrada en una red de más de 700 oficinas y agencias en toda España y trabajamos con un único objetivo de ayudarte a descubrir el viaje que te define y que estabas buscando y llevarte a donde sueñe tu deseo por viajar. <br><br>
+            </div>
+
             <div class="col-md-8 col-xs-12">
               <h4 class="titulo-about">Agencia de viajes online</h4>
               <p class="texto-about">En las agencias de viajes sabemos que cualquier fecha para viajar es buena si el destino lo merece. ¡Ojo! el destino y el rumbero. Y es que nuestros viajeros rumberos se lo merecen toíto tó. Así que entra y utiliza el buscador de hoteles: encontrarás todas las ofertas pa rumberos avispaos que saben lo que es bueno (y baratico, oiga).<br><br>
@@ -135,9 +145,9 @@ viajes a Paris, la ciudad del amor.">
               <span class="subtitulo-about">No dejes de viajar¡¡¡¡</span><br><br>
 
               Encuentra, compra al mejor precio y Viaja con mayúsculas.</p>
-              <button class=" btn-about"><a class="btn-lien" href="#">Leer más</a></button>
+              <button class=" btn-about btn-lien" data-modal-target="#modalhome" id="LeerMasHome">Leer más</button>
             </div>
-
+            
             <div class="col-md-4 col-xs-12 imagen-about">
               <img class="img-sobrenosotros " src="img/background/imagen-about.jpg" alt="travel paradise">
             </div>
@@ -217,6 +227,15 @@ viajes a Paris, la ciudad del amor.">
 
           <div class="container">
             <div class="row">
+
+              <div id="ModalLouvre" class="GeneralModal">
+                <div class="GrupoCerrartitulo">
+                  <h4 class="titulo-about">Museo del Louvre</h4>
+                  <button data-close-button class="closeButton">&times;</button>
+                </div>
+                <img src="img/background/imagen-travel-1.jpg" alt="travel paradise">
+                <p>El Museo del Louvre es el museo más importante de Francia y uno de los más visitados del mundo.</p>
+              </div>
               
               <div class=" col-lg-4 col-md-6 col-xs-12">
                 <div class="card carta ">
@@ -225,10 +244,19 @@ viajes a Paris, la ciudad del amor.">
                     <h5 >Museo del Louvre</h5>
                     <p>El Museo del Louvre es el museo más importante de Francia y uno de los más visitados del mundo.</p>
                     <div class="card-meta">
-                      <a href="#" class="boton-oferta">Saber más</a>
+                      <a id="saberMasLouvre" class="boton-oferta">Saber más</a>
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <div id="ModalInvalides" class="GeneralModal">
+                <div class="GrupoCerrartitulo">
+                  <h4 class="titulo-about">Invalides</h4>
+                  <button data-close-button class="closeButton">&times;</button>
+                </div>
+                <img src="img/background/imagen-travel-2.jpg" alt="travel paradise">
+                <p>Este palacio nacional acoge la sepultura de uno de los personajes más icónicos del país: Napoleón.</p>
               </div>
 
               <div class=" col-lg-4 col-md-6 col-xs-12">
@@ -238,10 +266,19 @@ viajes a Paris, la ciudad del amor.">
                     <h5>Invalides</h5>
                     <p>Este palacio nacional acoge la sepultura de uno de los personajes más icónicos del país: Napoleón.</p>
                     <div class="card-meta">
-                      <a href="#" class="boton-oferta">Saber más</a>
+                      <a id="saberMasInvalides" class="boton-oferta">Saber más</a>
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <div id="ModalTorreEiffel" class="GeneralModal">
+                <div class="GrupoCerrartitulo">
+                  <h4 class="titulo-about">Torre Eiffel</h4>
+                  <button data-close-button class="closeButton">&times;</button>
+                </div>
+                <img src="img/background/imagen-travel-3.jpg" alt="travel paradise">
+                <p>La Torre Eiffel es el símbolo de París y actualmente es el monumento más visitado del mundo.</p>
               </div>
 
               <div class=" col-lg-4 col-md-6 col-xs-12">
@@ -251,10 +288,19 @@ viajes a Paris, la ciudad del amor.">
                     <h5>Torre Eiffel</h5>
                     <p>La Torre Eiffel es el símbolo de París y actualmente es el monumento más visitado del mundo.</p>
                     <div class="card-meta">
-                      <a href="#" class="boton-oferta">Saber más</a>
+                      <a id="saberMasEiffel" class="boton-oferta">Saber más</a>
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <div id="ModalCliente" class="GeneralModal">
+                <div class="GrupoCerrartitulo">
+                  <h4 class="titulo-about">Experiencia del cliente</h4>
+                  <button data-close-button class="closeButton">&times;</button>
+                </div>
+                <img src="img/background/imagen-oferta-1.jpg" alt="travel paradise">
+                <p>Tenemos a disposición todos los aeropuertos parisinos donde opera del servicio Priority Boarding.</p>
               </div>
 
               <div class=" col-lg-4 col-md-6 col-xs-12">
@@ -264,10 +310,19 @@ viajes a Paris, la ciudad del amor.">
                     <h5>Experiencia del cliente</h5>
                     <p>Tenemos a disposición todos los aeropuertos parisinos donde opera del servicio Priority Boarding.</p>
                     <div class="card-meta">
-                      <a href="#" class="boton-oferta">Saber más</a>
+                      <a id="saberMasCliente" class="boton-oferta">Saber más</a>
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <div id="ModalFidel" class="GeneralModal">
+                <div class="GrupoCerrartitulo">
+                  <h4 class="titulo-about">Programa Fidel</h4>
+                  <button data-close-button class="closeButton">&times;</button>
+                </div>
+                <img src="img/background/imagen-oferta-2.jpg" alt="travel paradise">
+                <p>Las bondades de este programa se traducen en más de un millón de clientes fidelizados en tiempo récord.</p>
               </div>
 
               <div class=" col-lg-4 col-md-6 col-xs-12">
@@ -275,12 +330,21 @@ viajes a Paris, la ciudad del amor.">
                   <img src="img/background/imagen-oferta-2.jpg" alt="travel paradise">
                   <div class="carta-texto">
                     <h5>Programa Fidel</h5>
-                    <p>Las bondades de este programa se traducen en más de un millón de clientes fidelizados en tiempo récord.</p>
+                    <p>Las bondades de este programa se traducen en más de un millón de clientes en tiempo récord.</p>
                     <div class="card-meta">
-                      <a href="#" class="boton-oferta">Saber más</a>
+                      <a id="saberMasfidel" class="boton-oferta">Saber más</a>
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <div id="ModalOnline" class="GeneralModal">
+                <div class="GrupoCerrartitulo">
+                  <h4 class="titulo-about">Venta On-line</h4>
+                  <button data-close-button class="closeButton">&times;</button>
+                </div>
+                <img src="img/background/imagen-oferta-3.jpg" alt="travel paradise">
+                <p>El servicio de venta online está disponible en la totalidad de los servicios que opera la empresa.</p>
               </div>
 
               <div class="col-lg-4 col-md-6 col-xs-12">
@@ -290,7 +354,7 @@ viajes a Paris, la ciudad del amor.">
                     <h5>Venta On-line</h5>
                     <p>El servicio de venta online está disponible en la totalidad de los servicios que opera la empresa.</p>
                     <div class="card-meta">
-                      <a href="#" class="boton-oferta">Saber más</a>
+                      <a id="saberMasOnline" class="boton-oferta">Saber más</a>
                     </div>
                   </div>
                 </div>
@@ -348,6 +412,8 @@ viajes a Paris, la ciudad del amor.">
         </div>
             
       </section>
+
+      <div id="overlay"></div>
 
     </main>
 

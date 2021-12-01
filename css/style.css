@@ -19,19 +19,18 @@ section{
   background-image: url(../img/background/imagen-slide-3.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
   background-size: cover;
-  padding: 0px;
-  
+  position: relative;
 }
 
 .link-menu{
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Varta Regular';
   transition: all .3s ease-in-out;
   padding: .5rem 1rem;
   display: block;
+  letter-spacing: 2px;
 
 }
 
@@ -60,6 +59,7 @@ section{
   z-index: 999;
   border-bottom: 2px solid #ffffff;
   padding: 10px 50px;
+  align-items: center;
 }
 
 .icon{
@@ -188,12 +188,9 @@ section{
   height: 90px;
   border: 1px solid #ffffff;
   border-radius: 60px;
-  position: absolute;
+  position: relative;
   display: block;
   margin: 50px auto;
-  bottom: 0;
-  right: 0;
-  left: 0;
 
 }
 .mouse::before {
@@ -230,9 +227,9 @@ section{
 
 .header-section{
   display: block;
-  margin: 50px auto 0;
+  margin: 20px auto 40px;
   text-align: center;
-  padding: 80px 0
+  padding: 20px 0
 }
 
 .titulo-section{
@@ -240,6 +237,8 @@ section{
   color: #969696;
   margin: 3px;
   font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .linea-titulo{
@@ -262,6 +261,7 @@ section{
 
 .texto-about{
   font-family: 'Rubik Light';
+  font-size: 18px;
   color: #1e1e1e;
   width: 500px;
 }
@@ -289,12 +289,8 @@ section{
   border: 1px solid #ffffff;
   background: #1e1e1e;
   transition: all .3s ease-in-out;
-}
-
-.btn-about:hover .btn-lien{
   color: #ffffff;
-  text-decoration: none;
-  transition: all .3s ease-in-out;
+   text-decoration: none;
 }
 
 .subtitulo-about{
@@ -485,7 +481,7 @@ section{
 
 .carta p{
   font-family: 'Rubik Light';
-  font-size: 16px;
+  font-size: 18px;
   color: #1e1e1e;
   margin: 10px;
 }
@@ -504,7 +500,7 @@ section{
 
 .boton-oferta:hover{
   background: #1e1e1e;
-  color: #ffffff;
+  color: #ffffff !important;
   text-decoration: none;
   transition: all .3s ease-in-out;
 }
@@ -526,7 +522,7 @@ section{
 .formulario label{
   color: #ffffff;
   font-family: 'Rubik Regular';
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
 }
 
@@ -573,11 +569,103 @@ section{
   font-size: 12px;
   color: #1e1e1e;
   text-align: center;
-  padding: 20px;
-  margin-top: 100px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
+.footer p{
+  margin-bottom: 0;
+}
 
+/* modales */
+
+#overlay{
+  background: black;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0.5;
+  display: none;
+  z-index: 9999999;
+}
+
+#modalhome{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #ffffff;
+  z-index: 99999999;
+  width: 500px;
+  max-width: 80%;
+  padding: 20px;
+  display: none;
+}
+
+.GrupoCerrartitulo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.closeButton{
+  border: none;
+  background: none;
+  font-size: 32px;
+  color: #1e1e1e;
+}
+
+.closeButton:hover{
+  color: #c8c8c8;
+  transition: .2s ease;
+}
+
+#modalhome .texto-about{
+  width: auto;
+}
+
+#modalhome .titulo-about{
+  margin: 0 ;
+}
+
+.GeneralModal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #ffffff;
+  z-index: 99999999;
+  width: 500px;
+  max-width: 80%;
+  padding: 20px;
+}
+
+.GeneralModal .texto-about{
+  width: auto;
+}
+
+.GeneralModal .titulo-about{
+  margin: 0 ;
+}
+
+.GeneralModal img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.GeneralModal p{
+  font-size: 18px;
+}
+
+#ModalLouvre, #ModalInvalides, #ModalTorreEiffel, #ModalCliente, #ModalFidel, #ModalOnline{
+  display: none;
+}
 
 
 
